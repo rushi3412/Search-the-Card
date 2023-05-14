@@ -1,1 +1,64 @@
+.intro-text {
+  /* font-size: ; */
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  /* left: 25%; */
+  font-weight: bold;
+  font-family: "Wide Latin";
+}
 
+.image-section {
+  height: 100vh;
+  background-image: url("mh2.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+/* .webdevlop {
+  width: 50%;
+  background-image: url("./webdev.png"); */
+/* image-orientation: ;
+  position: relative; */
+/* } */
+
+.blackBox {
+  /* font can be set (weight, familiy, size  */
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.contact {
+  background-color: red;
+  color: white;
+}
+
+.aboutme {
+  background-color: brown;
+}
+
+.effects {
+  cursor: pointer;
+}
+/* .effects:hover {
+  background-color: lightblue;
+} */
+
+.card-img-top {
+  transition: all 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.box {
+  background: lightblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.text-truncate {
+  display: block;
+}
